@@ -41,6 +41,10 @@ namespace ValoresEspeciais
             float x2 = float.NaN;
 
             Console.WriteLine($"{x}\n{y}\n{x1}\n{y1}\n{x2}");
+
+            uint oF = uint.MaxValue;
+            uint sum = oF+1;
+            Console.WriteLine(sum);
         }
     }
 }
