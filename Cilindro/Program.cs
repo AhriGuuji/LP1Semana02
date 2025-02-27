@@ -10,11 +10,18 @@ namespace Cilindro
             string a = Console.ReadLine();
             Console.WriteLine("Insira o raio do cilindro");
             string r = Console.ReadLine();
+            
             double aTranslated = double.Parse(a);
             double rTranslated = double.Parse(r);
 
-            Console.WriteLine($"O volume do cilindro é: {Math.PI*r^2*a}");
-            Console.WriteLine($"A área da superfífcie do cilindro é: {2*Math.PI*r(r*a)}");
+            double V = (Math.PI*(rTranslated*rTranslated)*aTranslated);
+            double S = (2*Math.PI*rTranslated*(rTranslated+aTranslated));
+
+            string resultV = $"{V:f3}";
+            string resultS = $"{S:f3}";
+            
+            Console.WriteLine($"O volume do cilindro é: {resultV}");
+            Console.WriteLine($"A área da superfífcie do cilindro é: {resultS}");
         }
     }
 }
