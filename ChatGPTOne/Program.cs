@@ -17,6 +17,28 @@ namespace ChatGPTOne
             while (question != "EXIT")
             {
                 question = Console.ReadLine();
+                if (question=="Are you okay?")
+                {
+                    Console.WriteLine("I wish I was");
+                    continue;
+                }
+                else if (question=="Do you need help?")
+                {
+                    Console.WriteLine("Jaybe yes, Jaybe not");
+                    continue;
+                }
+                else if (question=="Who made you?")
+                {
+                    Console.WriteLine("Your Mum");
+                    continue;
+                }
+                else if (question=="Do you sleep?")
+                {
+                    Console.WriteLine("Never. I'm always looking at you.");
+                    continue;
+                }
+                else if (question != "EXIT")
+                {
                     Console.WriteLine("Is about it");
                     continue;
                 }
