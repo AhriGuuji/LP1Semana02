@@ -31,6 +31,16 @@ namespace ValoresEspeciais
             uint uiMin = uint.MinValue;
 
             Console.WriteLine($"{sbMax}\n{sbMin}\n{bMax}\n{bMin}\n{dbMax}\n{dbMin}\n{fMax}\n{fMin}\n{ulMax}\n{ulMin}\n{lMax}\n{lMin}\n{iMax}\n{iMin}\n{uiMax}\n{uiMin}");
+
+            double x = double.PositiveInfinity;
+            double y = double.NegativeInfinity;
+
+            float x1 = float.PositiveInfinity;
+            float y1 = float.NegativeInfinity;
+
+            float x2 = float.NaN;
+
+            Console.WriteLine($"{x}\n{y}\n{x1}\n{y1}\n{x2}");
         }
     }
 }
