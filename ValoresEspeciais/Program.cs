@@ -45,6 +45,10 @@ namespace ValoresEspeciais
             uint oF = uint.MaxValue;
             uint sum = oF+1;
             Console.WriteLine(sum);
+
+            float infinityFlow = 2*float.MaxValue;
+            float notChangeValue = float.MaxValue+1;
+            Console.WriteLine($"{infinityFlow}\n{notChangeValue}");
         }
     }
 }
