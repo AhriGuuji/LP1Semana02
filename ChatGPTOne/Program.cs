@@ -6,17 +6,17 @@ namespace ChatGPTOne
     {
         private static void Main(string[] args)
         {
-            //Variaveis usadas;
-            string question;
-
-            //Pedir input;
-            Console.WriteLine("Ask me something");
-            question = "";
+            //Variaveis da pergunta;
+            string question = "";
 
             //Ciclo de perguntas e respostas
             while (question != "EXIT")
             {
+                //Pedir o input ao user
+                Console.WriteLine("Ask me something");
                 question = Console.ReadLine();
+
+                //Questões com resposta específica
                 if (question=="Are you okay?")
                 {
                     Console.WriteLine("I wish I was");
@@ -37,6 +37,8 @@ namespace ChatGPTOne
                     Console.WriteLine("Never. I'm always looking at you.");
                     continue;
                 }
+
+                //Quando o input não é nenhum acima
                 else if (question != "EXIT")
                 {
                     Console.WriteLine("Is about it");
