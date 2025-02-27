@@ -49,6 +49,10 @@ namespace ValoresEspeciais
             float infinityFlow = 2*float.MaxValue;
             float notChangeValue = float.MaxValue+1;
             Console.WriteLine($"{infinityFlow}\n{notChangeValue}");
+
+            float forUnder1, forUnder2;
+            forUnder1 = forUnder2 = 10000.0f;
+            Console.WriteLine(forUnder1 == forUnder2 + 0.0001f);
         }
     }
 }
