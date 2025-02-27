@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmoothOperator", "SmoothOpe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariousOperators", "VariousOperators\VariousOperators.csproj", "{C58C611F-87F6-4BC9-A8C9-C924F507B372}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cilindro", "Cilindro\Cilindro.csproj", "{C27D066A-95F9-4C6E-A8FB-DC727B5D0496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTZero", "ChatGPTZero\ChatGPTZero.csproj", "{4CED3D93-6F62-40B3-94E2-FFFF1F868520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValoresEspeciais", "ValoresEspeciais\ValoresEspeciais.csproj", "{A67CD8FF-45F2-48E1-B346-9BCFB73917A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,17 @@ Global
 		{C58C611F-87F6-4BC9-A8C9-C924F507B372}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C58C611F-87F6-4BC9-A8C9-C924F507B372}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C58C611F-87F6-4BC9-A8C9-C924F507B372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27D066A-95F9-4C6E-A8FB-DC727B5D0496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27D066A-95F9-4C6E-A8FB-DC727B5D0496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27D066A-95F9-4C6E-A8FB-DC727B5D0496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27D066A-95F9-4C6E-A8FB-DC727B5D0496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CED3D93-6F62-40B3-94E2-FFFF1F868520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CED3D93-6F62-40B3-94E2-FFFF1F868520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CED3D93-6F62-40B3-94E2-FFFF1F868520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CED3D93-6F62-40B3-94E2-FFFF1F868520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67CD8FF-45F2-48E1-B346-9BCFB73917A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67CD8FF-45F2-48E1-B346-9BCFB73917A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67CD8FF-45F2-48E1-B346-9BCFB73917A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67CD8FF-45F2-48E1-B346-9BCFB73917A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
