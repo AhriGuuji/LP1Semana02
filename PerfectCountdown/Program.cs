@@ -11,9 +11,9 @@ namespace PerfectCountdown
             while (startNumberInt >= 0)
             {
                 //Pede ao user um número inicial maior que 1 e um número de passo maior que 1 até o inicial.
-                Console.WriteLine("Start Number: ");
+                Console.Write("Start Number: ");
                 string start = Console.ReadLine();
-                Console.WriteLine("Start Step: ");
+                Console.Write("Start Step: ");
                 string step = Console.ReadLine();
 
                 //Tradução do Input para int
