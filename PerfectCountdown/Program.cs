@@ -6,6 +6,7 @@ namespace PerfectCountdown
     {
         private static void Main(string[] args)
         {
+            //Variavel para dar inicio ao while
             int startNumberInt = 1;
 
             while (startNumberInt >= 0)
