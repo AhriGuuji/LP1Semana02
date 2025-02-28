@@ -9,7 +9,7 @@ namespace ChatGPTOne
             //Variaveis da pergunta;
             string question = "";
 
-            //Ciclo de perguntas e respostas
+            //Ciclo de perguntas e respostas, com condição de não ser "EXIT"
             while (question != "EXIT")
             {
                 //Pedir o input ao user

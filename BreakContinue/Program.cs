@@ -18,18 +18,12 @@ namespace BreakContinue
                     break;
                 }
 
-                // Skips current cycle if current turn is divisible by 3
-                if (turn % 3 == 0)
+                // Skips current cycle if current turn is divisible by 3 or if turn is 10
+                if (turn % 3 == 0 || turn == 10)
                 {
                     continue;
                 }
 
-                //Não imprime o 10
-                if (turn==10)
-                {
-                    continue;
-                }
-                
                 // Print turn number
                 Console.WriteLine($"Turn number {turn}");
             }
